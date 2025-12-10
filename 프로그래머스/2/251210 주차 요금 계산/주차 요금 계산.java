@@ -10,8 +10,6 @@ public class Main {
         unitMinutes = fees[2];
         unitFee = fees[3];
 
-        SortedMap<String, Integer> feeList = new TreeMap<>();
-
         SortedMap<String, int[]> map = new TreeMap<>();
         for(String record : records) {
             String[] string3 = record.split(" ", 3);
